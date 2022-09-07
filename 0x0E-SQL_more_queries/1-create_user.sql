@@ -1,8 +1,7 @@
--- creates the MYSQL server 'user_0d_1'@'localhost'
-CREATE USER
+--  creates the MySQL server user user_0d_1
+CREATE USER 
 	IF NOT EXISTS 'user_0d_1'@'localhost'
-	IDENTIFIED BY 'user_0d_1pwd';
+	IDENTIFIED BY 'user_0d_1_pwd';
 GRANT ALL
 	ON *.*
-	TO 'USER_0D_1'@'localhost';
-
+	TO 'user_0d_1'@'localhost';
